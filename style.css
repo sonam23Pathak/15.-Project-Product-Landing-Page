@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: black;
+    color: #fff;
+
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo1 {
+    width: 100px;
+    margin-left: 1rem;
+}
+
+.nav-items ul {
+    display: flex;
+}
+
+.items li {
+    list-style-type: none;
+    font-size: 12px;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero {
+    height: 400px;
+    width: 450px;
+}
+
+.about-us {
+    margin-top: 100px;
+
+}
+
+.about-us h3 {
+    color: #d61c1c;
+    font-size: 15px;
+}
+
+.about-us h1 {
+    color: #fff;
+    font-size: 45px;
+}
+
+.about-us p {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.about-btn {
+    width: 90px;
+    height: 30px;
+    background-color: #d61c1c;
+    color: #fff;
+    border: none;
+    margin: 10px;
+
+}
+
+section {
+    display: flex;
+    margin-top: 5px;
+}
+
+.text {
+    position: relative;
+    background-color: #1d1b1b;
+    height: 600px;
+    width: 600px;
+}
+
+.text h1 {
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    font-size: 85px;
+    font-weight: 900;
+    color: #d61c1c;
+
+}
+
+.text-white {
+    position: absolute;
+    top: 120px;
+    left: -40px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.card1 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 100px;
+}
+
+.card1 h4 {
+    color: #d61c1c;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+
+
+.ui {
+    height: 200px;
+    width: 250px;
+    padding: 25px;
+    background-color: #454040;
+    margin: 40px;
+}
+
+.product {
+    height: 200px;
+    width: 250px;
+    padding: 25px;
+    background-color: #d61c1c;
+    margin: 40px;
+}
+
+.product h4 {
+    color: #fff;
+}
+
+.brand {
+    height: 200px;
+    width: 250px;
+    padding: 25px;
+    background-color: #454040;
+    margin: 40px;
+}
+
+.card2 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 850px;
+    left: 520px;
+}
+
+.card2 .bottom-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-box h4 {
+    color: #d61c1c;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.bottom-box p {
+    font-size: 12px;
+}
+
+.client {
+    height: 60px;
+    width: 180px;
+    padding: 5px;
+    background-color: #454040;
+    margin: 10px;
+}
+
+.year {
+    height: 60px;
+    width: 180px;
+    padding: 5px;
+    background-color: #454040;
+    margin: 10px;
+}
+
+
+.proj {
+    height: 60px;
+    width: 180px;
+    padding: 5px;
+    background-color: #454040;
+    margin: 10px;
+}
+
+
+.achieve {
+    height: 60px;
+    width: 180px;
+    padding: 5px;
+    background-color: #454040;
+    margin: 10px;
+}
+
+
+.project {
+    height: 800px;
+}
+
+.top {
+    position: relative;
+    top: 40px;
+    left: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.view-btn {
+    position: absolute;
+    top: 10px;
+    right: -200px;
+    width: 90px;
+    height: 35px;
+    background-color: #d61c1c;
+    color: #fff;
+    border: none;
+}
+
+#proj p {
+    font-size: 2px;
+}
+
+.project-box {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.boxes {
+    position: relative;
+    top: 180px;
+    left: -80px;
+    display: flex;
+
+}
+
+.box {
+    background-color: #454040;
+    height: 180px;
+    width: 310px;
+    margin: 40px 35px;
+}
+
+.box img {
+    padding: 20px;
+    height: 20vh;
+    width: 25wh;
+}
+
+.box h5 {
+    font-size: 12px;
+    color: #d61c1c;
+}
+
+.bottom-about {
+    position: relative;
+    top: 10px;
+    left: 400px;
+    background-color: #1d1b1b;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    width: 850px;
+}
+
+.bottom-about h3 {
+    font-size: 35px;
+    padding: 20px;
+}
+
+.bottom-about p {
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+.contact {
+    width: 90px;
+    height: 35px;
+    background-color: #d61c1c;
+    color: #fff;
+    border: none;
+    margin: 100px 50px;
+}
+
+.bottom-nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.bottom-nav ul li {
+    list-style-type: none;
+    margin: 15px;
+    font-size: 12px;
+}
+
+footer {
+    display: flex;
+    background-color: #454040;
+    height: 10vh;
+    justify-content: space-around;
+}
+
+.footer-logo {
+
+    width: 80px;
+}
+
+.social img {
+    position: relative;
+    left: -380px;
+    top: 15px;
+    width: 20px;
+    margin: 0 15px;
+
+}
